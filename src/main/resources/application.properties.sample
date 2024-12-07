@@ -1,5 +1,5 @@
 spring.application.name=demo_1
-spring.mongodb.uri=mongodb+srv://xxx:@cluster0.baqo4.mongodb.net/
+spring.mongodb.uri=mongodb+srv://xxx:@cluster0.xxx.mongodb.net/
 spring.mongodb.database=test_changestream
 spring.mongodb.collection=changestream
 spring.mongodb.resumetoken.collection=resumetokens
