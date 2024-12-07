@@ -10,6 +10,14 @@ Java MongoDB changestream repo based on SpringBoot framework
 4. **Single responsibility**. It watches one collection's change event only. If we need to watch multiple collections in MongoDB, start different instances with different configurations.
 5. **Observability**. It exposes TPS/P99 latency/Totol request numbers metrics with Prometheus library.
 
+## Environment setting
+
+```bash
+cp application.properties.sample application.properties
+```
+
+update your related db info in this file
+
 ## User case
 
 In the source collection, user's new transaction doc will be inserted as below:
