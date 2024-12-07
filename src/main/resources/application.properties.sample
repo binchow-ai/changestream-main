@@ -1,0 +1,15 @@
+spring.application.name=demo_1
+spring.mongodb.uri=mongodb+srv://xxx:@cluster0.baqo4.mongodb.net/
+spring.mongodb.database=test_changestream
+spring.mongodb.collection=changestream
+spring.mongodb.resumetoken.collection=resumetokens
+spring.mongodb.txn.collection=userdailytxn
+spring.mongodb.retry.maxattempts=5
+spring.mongodb.retry.initialdelayms=1000
+spring.threadpool.nums=10
+server.shutdown=graceful
+spring.lifecycle.timeout-per-shutdown-phase=30s
+logging.level.com.example.demo.metrics=INFO
+logging.level.org.springframework.aop=INFO
+prometheus.server.port=8082
+
